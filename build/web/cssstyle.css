@@ -1,0 +1,251 @@
+html { overflow-y: scroll; }
+body {
+    background-color: #dfdfff;
+        position: absolute; 
+    }
+    .logo {
+            width: 140px;
+            height: 45px;
+            opacity: 0.99;
+            position:absolute;
+            top: 10px;
+            left: 370px;
+            z-index: 1;
+    }
+div.pos_tilte {
+            position: absolute;
+            top: 0;
+            width: 500px;
+            left: 550px; 
+        }  
+        
+        div.pos_ProjName {
+            position: absolute;
+            top: 0px;
+            left: 570px;
+            width: 500px;
+            
+        }  
+        div.pos_projinfo {
+            position: absolute;
+            top: 45px;
+            left: 450px;
+            width: 800px;
+        }  
+        div.pos_Roofsht {
+            position: absolute;
+            top: 75px;
+            left: 2px;
+            width: 120px;
+        }
+        
+        div.pos_RoofMS{
+            position: absolute;
+            top: 117px;
+            left: 2px;
+            width: 120px;
+            line-height: 1;
+            color:  #000000;
+        }
+        
+        div.pos_CanopyRoofSht{
+            position: absolute;
+            top: 162px;
+            left: 2px;
+            width: 120px;
+            line-height: 1;
+        }
+        
+        div.pos_WallSht {
+            position: absolute;
+            top: 210px;
+            left: 2px;
+            width: 120px;
+        }
+        
+        
+        div.pos_CanopyWallSht{
+            position: absolute;
+            top: 252px;
+            left: 2px;
+            width: 120px;
+            line-height: 1;
+        }
+        
+        div.pos_IndusLouver{
+            position: absolute;
+            top: 298px;
+            left: 2px;
+            width: 100px;
+            line-height: 1;
+        }
+        
+        div.pos_FixedLouver{
+            position: absolute;
+            top: 345px;
+            left: 2px;
+            width: 120px;
+        }
+        
+        div.pos_BuildTrims{
+            position: absolute;
+            top: 387px;
+            left: 2px;
+            width: 120px;
+            line-height: 1;
+        }
+        
+        div.pos_Downspout{
+            position: absolute;
+            top: 435px;
+            left: 2px;
+            width: 120px;
+        }
+        
+        div.pos_RidgeVent{
+            position: absolute;
+            top: 480px;
+            left: 2px;
+            width: 120px;
+        }
+        
+        div.pos_Doors{
+            position: absolute;
+            top: 525px;
+            left: 2px;
+            width: 120px;
+        }
+        div.fixed1 {
+            position: absolute;
+            top :600px;
+            left: 917px;
+            /*width: 300px;*/
+            font-size: 12px;
+            font-family: Calibri;
+            border: 1px solid #73AD21;
+            width: 420px;
+        } 
+        
+        div.pos_canvas{
+            position: absolute;
+            top: 95px;
+            left: 250px;
+            border: 0px solid; 
+            /*width: 1320px;
+            height: 450px; */
+            background-color:     #ffffff   ;
+        }
+        
+        div.pos_canvasHeader{
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            border: 0px solid; 
+            /*width: 1320px;
+            height: 450px; */
+            background-color:    #fec68e;
+        }
+        div.pos_canvasCombo{
+            position: absolute;
+            top: 95px;
+            left: -20px;
+            border: 0px solid; 
+            /*width: 1320px;
+            height: 450px; 
+            background-color: #99ff99 ;*/
+            background-color:  #99ff99 ;
+        }
+        
+        .buttonClearAll {
+            background-color: #4CAF50;
+            border: white 1px solid;
+            position: absolute;
+            color: white;
+            top: 590px;
+            left: 40px;
+            /*padding: 5px 42px;*/
+            height: 30;
+            width: 150px;
+            text-indent: 0px;
+            display: block;
+            float: left;
+            font-size: 18px;
+            font-family: Calibri;
+            margin: 0px 0px;
+            cursor: pointer;
+    }
+
+    div.pos_Refresh {
+            position: absolute;
+            top :300px;
+            left: 450px;
+            /*width: 300px;*/
+            font-size: 18px;
+            font-family: Calibri;
+            width: 520px;
+            text-align: center;
+        } 
+        
+    .btnRefresh_{
+            background-color:  #99ccff ;
+            border:  #0000cc 1px solid;
+            position: absolute;
+            color:    #000000;
+            top: 375px;
+            left: 640px;
+            /*padding: 5px 42px;*/
+            height: 30;
+            width: 150px;
+            text-indent: 0px;
+            display: block;
+            float: left;
+            font-size: 18px;
+            font-family: Calibri;
+            margin: 0px 0px;
+            cursor: pointer;
+    }
+    
+    
+.ComboAlignRow1 {
+    position: absolute;
+    margin: 10px;
+    top: 70px;
+    display: inline-block;
+    /*padding: 0px;    
+    margin: 10px 15%;*/
+}
+
+.ComboAlignRow1 select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    
+    width: 140px;
+    
+    height: 30px;
+    float: left;
+    margin: 0px 0%;
+    padding: 0px 5px;
+    font-size: 18px;
+    font-family: calibri;
+    line-height: 1.5;
+    color:    #000000;
+    background: url(Resources/darow1.png) 100% / 15% no-repeat #eee;
+    background-color: #99ccff;
+    border: 1px solid #0000cc;
+    -ms-word-break: normal;
+    word-break: normal;
+    
+}
+ 
+
+/* CAUTION: IE hackery ahead */
+select::-ms-expand {
+    display: none;
+}
+
+/*Combo droplist color*/
+option{
+    background-color:   #ffccff;  
+}
